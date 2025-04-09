@@ -15,7 +15,7 @@ Uma aplicação simples de lista de tarefas desenvolvida com **JavaFX**. Permite
 
 ## 📸 Demonstração
 
-![image](https://github.com/user-attachments/assets/c944768c-1b12-430c-8b2a-51e2bd890d6e)
+![image](https://github.com/user-attachments/assets/38e177d2-c6d5-47a9-b94b-eafb94b1330a)
 
 
 ---
