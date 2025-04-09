@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.todolist.HelloController" spacing="10"
+      style="-fx-padding: 10; -fx-background-color: #f5f5f5;">
+
+  <ListView fx:id="taskListView" VBox.vgrow="ALWAYS"/>
+
+  <TextField fx:id="taskInput" promptText="Digite uma nova tarefa..."/>
+
+  <HBox spacing="10">
+    <Button text="Adicionar" onAction="#onAddButtonClick"
+            style="-fx-background-color: #4CAF50; -fx-text-fill: white;"/>
+    <Button text="Remover" onAction="#onRemoveButtonClick"
+            style="-fx-background-color: #f44336; -fx-text-fill: white;"/>
+  </HBox>
+</VBox>
